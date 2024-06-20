@@ -8,6 +8,7 @@ The goal of this work was to apply principles of nonlinear control to a novel re
 The governing dynamics were first adopted from existing literature and formulated for this problem. Then, the sliding surface was defined, where the dynamics were naturally partitioned into the euler angles and rates. The sliding mode controller was defined and, along with a quadratic lyapunov function, used to demonstrate exponential convergence under no disturbance cases and at least GAS convergence under time-varying disturbance cases. Finally, an observer was adopted from the literature to recreate the disturbances necessary for the controller. 
 
 ![Example_MAV](https://github.com/JMocklerUMD/ENAE743-Final-Project/assets/150191399/2c60cb00-cc6b-4436-97c6-e2bc9c1af0bd)
+
 *Fig. 1 - Example Micro-Aerial Vehicle in flight. The typical propulsion and control mechanisms are in the wing flapping behavior*
 
 ### Results
